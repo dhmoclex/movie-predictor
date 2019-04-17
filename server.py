@@ -13,7 +13,7 @@ def index():
     status=200,
     replies=[{
       'type': 'text',
-      'content': request.get_json()
+      'content': request.args
     }]
   )
 
