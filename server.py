@@ -13,7 +13,7 @@ def index():
     status=200,
     replies=[{
       'type': 'text',
-      'content': 'Test du serveur')
+      'content': 'Test du serveur'
     }]
   )
 
