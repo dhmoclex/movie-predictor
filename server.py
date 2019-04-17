@@ -11,10 +11,7 @@ print(port)
 def index():
   return jsonify(
     status=200,
-    replies=[{
-      'type': 'text',
-      'content': request.args
-    }]
+    parameters=request.args
   )
 
 @app.route('/errors', methods=['POST'])
