@@ -2,12 +2,5 @@
   "name": "pyHeroku",
   "description": "Test d'un serveur simpliste en python pour Heroku.",
   "image": "heroku/python",
-  "keywords": ["python", "flask" ],
-  "environments": {
-    "test": {
-      "scripts": {
-        "test": "server.py test"
-      }
-    }
-  }
+  "keywords": ["python", "flask" ]
 }
