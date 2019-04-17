@@ -1,10 +1,8 @@
 {
-  "name": "Sato crypto bot",
-  "description": "The server side for Sato.",
+  "name": "pyHeroku",
+  "description": "Test d'un serveur simpliste en python pour Heroku.",
   "image": "heroku/python",
-  "repository": "https://github.com/Ahirice/sato",
   "keywords": ["python", "flask" ],
-  "addons": [ "heroku-postgresql" ],
   "environments": {
     "test": {
       "scripts": {
